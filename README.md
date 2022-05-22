@@ -33,7 +33,7 @@ Com o desenvolvimento desse projeto aprendi mais um pouco sobre escrever teste c
   Foi realizado o Depoy da aplicação Web na Vercel disponivel em: 
   <a href="https://feed-get-nlwreturn.vercel.app/">FeedGet App</a>
 
-  O Depoy do backend e banco de dados PostegreSQL foram feitos da Railway.
+  O Depoy do backend e banco de dados PostegreSQL foram feitos na Railway.
 </p>
 
 ## Tecnologias

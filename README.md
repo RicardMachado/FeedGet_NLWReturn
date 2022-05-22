@@ -7,70 +7,50 @@
 
 <p align="center">
   <a href="#Sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Banco-de-Dados">Banco-de-Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Conheça-o-Feedget">Conheça-o-Feedget</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Observações">Observações</a>
 </p>
 
 <h1 align='center'>
   <img src='./.github/img/01.png' width="280">
   <img src='./.github/img/02.png' width="280">
-  <img src='./imagens/Dashboard_App_Inter.JPG' width="280">
+  <img src='./.github/img/03.png' width="280">
 </h1>
 
 ## Sobre
 <p align="justify">
-O projeto teve como finalidade o desenvolvimento de uma aplicação Full Stack JS em parceria com a plataforma DIO, Órbi Conecta e Banco Inter. Com a aplicação é possível realizar o cadastro de usuários, efetuar o login e fazer transações de valores utilizando a chave PIX gerada pela API.
+O Feedget é um widget de feedback,  o mesmo tem como finalidade o report de falhas em partes específicas de um site, sistema ou aplicação mobile. Foi desenvolvido durante a Next Level Week Return promovida pela Rocketseat. 
 
-Sua interface visual foi desenvolvida utilizando React e Styled-Components.
+Projeto desenvolvido do total zero usando TypeScript, contem um server(NodeJs), aplicação web(ReactJs) e mobile(React Native).
+
+Com o desenvolvimento desse projeto aprendi mais um pouco sobre escrever teste com o JestJS, também foi aplicado o princípio da inversão de dependência do SOLID e também foi implementado o Nodemailer, um modulo do NodeJs para permitir o envio de e-mail pelo backend, na web começei a entender como o Tailwind CSS funciona e no Mobile aprendi com tirar um screnshot usando o react-native-view-shot.
 </p>
 
-## Banco-de-Dados
-
+## Conheça-o-Feedget
 <p align="justify">
-Para esse projeto foi utilizado o banco de dados Postgres, no qual realizamos a sua conexão via Docker.
+  Foi realizado o Depoy da aplicação Web na Vercel disponivel em: 
+  <a href="https://feed-get-nlwreturn.vercel.app/">FeedGet App</a>
 
-Atenção para o arquivo ormconfig.json que deve ser criado no back-end e configurado de acordo com as informações de criação do Docker, evitando assim erro de conexão. 
+  O Depoy do backend e banco de dados PostegreSQL foram feitos da Railway.
 </p>
-
-<p align="justify"> No terminal do Docker </p>
-<pre>
-  <code>
-    docker run --name default -d -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=9707 -e POSTGRES_DB=inter postgres
-  </code>
-</pre>
-<p align="justify">
-  Documentação de Apoio em: <a href="https://hub.docker.com/">Docker Hub</a 
-</p>
-
-## Para executar o projeto
-<li>Clonar todo o repositório</li>
-<li>Com o banco de dados ativo:
-  <ul>
-    <li>Back-enk: entrer na pasta Inter-Back-end e rodar o comando:</>
-      <code>
-         yarn start
-      </code>
-    </li>
-    <li>Front-enk: entrer na pasta Inter-Front-end e rodar o comando:</>
-      <code>
-        yarn start
-      </code>
-    </li>
-   </ul>
-</li>
 
 ## Tecnologias
 <p align="justify">
   As seguintes ferramentas foram utilizadas na construção do projeto: 
 </p>
 
-<li>React.js</li>
-<li>Node.js</li>
-<li>Styled-Components</li>
+<p align="justify"> == Backend ==</p>
+<li>Nodejs</li>
 <li>Express</li>
+<li>Prisma IO</li>
+<li>Jest</li>
+<li>Nodemailer</li>
+<p align="justify"> == Frontend ==</p>
+<li>ReactJs</li>
+<li>Tailwind CSS</li>
 <li>Axios</li>
-<li>TypeScript</li>
-<li>TypeOrm</li>
-<li>JWT - JsonWebToken</li>
-<li>Docker</li>
+<p align="justify"> == Modile ==</p>
+<li>React Native</li>
+<li>Expo</li>
+<li>Styled-Components</li>
+<li>Axios</li>

@@ -1,5 +1,5 @@
 <h1 align='center'>
-  <img src='.git/img/nlw.svg' width="120">
+  <img src='.github/img/nlw.svg' width="120">
 </h1>
 <div align="center">
   <a href="https://opensource.org/licenses/MIT"><img alt="License MIT" src="https://img.shields.io/badge/license-MIT-brightgreen"></a>

@@ -19,10 +19,12 @@
 
 ## Sobre
 <p align="justify">
-O Feedget é um widget de feedback,  o mesmo tem como finalidade o report de falhas em partes específicas de um site, sistema ou aplicação mobile. Foi desenvolvido durante a Next Level Week Return promovida pela Rocketseat. 
-
+O Feedget é um widget de feedback,  o mesmo tem como finalidade o report de falhas em partes específicas de um site, sistema ou aplicação mobile. Foi desenvolvido durante a Next Level Week Return promovida pela Rocketseat.
+</p>
+<p align="justify">
 Projeto desenvolvido do total zero usando TypeScript, contem um server(NodeJs), aplicação web(ReactJs) e mobile(React Native).
-
+</p>
+<p align="justify">
 Com o desenvolvimento desse projeto aprendi mais um pouco sobre escrever teste com o JestJS, também foi aplicado o princípio da inversão de dependência do SOLID e também foi implementado o Nodemailer, um modulo do NodeJs para permitir o envio de e-mail pelo backend, na web começei a entender como o Tailwind CSS funciona e no Mobile aprendi com tirar um screnshot usando o react-native-view-shot.
 </p>
 
